@@ -9,7 +9,7 @@ function displayHikeInformation() {
         hikeCode = hikeInfo.code;
         hikeName = hikeInfo.name;
 
-        document.getElementById("hikeName").innterHTML = hikeName;
+        document.getElementById("hikeName").innerHTML = hikeName;
         let imgEvent = document.querySelector(".hike-img");
         imgEvent.src = "../images/" + hikeCode + ".jpg";
     });

@@ -68,6 +68,8 @@ function writeHikes() {
         city: "North Vancouver",
         province: "BC",
         level: "hard",
+
+
         details: "Amazing ski slope views",
         length: 8.2,        //number value
         hike_time: 120,     //number value
